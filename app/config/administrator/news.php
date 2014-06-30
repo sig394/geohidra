@@ -22,7 +22,7 @@ return array(
         ),
         'img' => array(
             'title' => 'Imagen',
-            'output' => '<img src="/uploads/news/thumbs/(:value)" height="100" />',
+            'output' => '<img src="' . str_replace("/index.php","",url()) . '/uploads/news/(:value)" height="100" />',
         )
     ),
 

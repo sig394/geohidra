@@ -54,7 +54,7 @@ return array(
             'title' => 'Archivo',
             'type' => 'file',
             'naming' => 'random',
-            'location' => public_path() .'/uploads/certs/',
+            'location' => public_path() .'/uploads/certsregisters/',
             'size_limit' => 2,
             'mimes' => 'pdf'
         )
