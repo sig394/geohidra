@@ -50,6 +50,15 @@ return array(
             'title' => 'Contenido',
             'type' => 'wysiwyg',
         ),
+        'img' => array(
+            'title' => 'Imagen',
+            'type' => 'image',
+            'naming' => 'random',
+            'location' => public_path() .'/uploads/sitesections/',
+            'size_limit' => 2,
+            'sizes' => array(
+                array(65, 57, 'crop', public_path() . '/uploads/sitesections/thumbs/', 100),         )
+        )
     ),
 
 );

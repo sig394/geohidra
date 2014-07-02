@@ -1,0 +1,74 @@
+#header{
+	padding-top: 12px;
+	height: 55px;
+}
+
+.footer {
+    background-color: #777674;
+    border-top: 1px solid #D7D7D7;
+    color: #D8D8D8;
+    padding: 52px 0 0;
+}
+
+.footer ul {
+    font-size: 9px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    
+
+}
+
+.footer a {
+    color: #FFFFFF;
+    display: block;
+}
+
+.footer .footer-menu {
+    float: right;
+}
+
+.footer .footer-menu li {
+    display: inline;
+    float: right;
+    font-size: 9px;
+    padding: 0 0 0 18px;
+}
+
+.sections{
+	height: 365px;
+	position:relative;
+}
+
+.items{
+	background-color: #FFFFFF;
+	height:290px;
+	position: absolute;
+	left: 0px;
+	top: -30px;
+	font-size: 12px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.items > .col-md-4{
+	height:280px;
+	margin-right: 10px;
+	width: 32.33333333%;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.copy_rights{
+	color: #fff;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+
+.logo{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 16px;
+}
